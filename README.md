@@ -2,7 +2,7 @@
 
 ### 📂 The 7 Core Modules
 
-#### 1. Clinical Metadata & Phenotypic Cleaning (CSV/TSV)
+#### 1. Clinical Metadata & Phenotypic Cleaning (CSV/TSV) 
 Connecting molecular data to phenotypic conditions. This module covers loading clinical tabular data and utilizing robust `tidyverse` (`dplyr`) pipelines to filter missing values, standardize identifiers, and prepare phenotypic traits for statistical evaluation.
 
 #### 2. Raw Sequencing Reads Import (FASTQ)
