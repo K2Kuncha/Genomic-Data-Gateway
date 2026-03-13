@@ -19,10 +19,10 @@ library(Seurat)
 cat("\n--- Loading Single-Cell Data ---\n")
 
 # To run locally, load your combined count matrix (e.g., Combined_Count_Matrix.tsv)
-# sc_matrix <- read.table("path/to/Combined_Count_Matrix.tsv", header = TRUE, row.names = 1)
+sc_matrix <- read.table("path/to/Combined_Count_Matrix.tsv", header = TRUE, row.names = 1)
 
 # Initialize the Seurat Object
-# seu_obj <- CreateSeuratObject(counts = sc_matrix, project = "Drosophila_Pericardial_Proj")
+seu_obj <- CreateSeuratObject(counts = sc_matrix, project = "Drosophila_Pericardial_Proj")
 
 # Calculate mitochondrial QC metrics
-# seu_obj <- PercentageFeatureSet(seu_obj, pattern = "^mt-", col.name = "percent.mt")
+seu_obj <- PercentageFeatureSet(seu_obj, pattern = "^mt-", col.name = "percent.mt")
