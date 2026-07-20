@@ -1,6 +1,6 @@
-# 🧬 Genomic Data Gateway: The Complete Omics Data Import & Cleaning Toolkit
+# Genomic Data Gateway: The Complete Omics Data Import & Cleaning Toolkit
 
-### 📂 The 7 Core Modules
+### The 7 Core Modules
 
 #### 1. Clinical Metadata & Phenotypic Cleaning (CSV/TSV) 
 Connecting molecular data to phenotypic conditions. This module covers loading clinical tabular data and utilizing robust `tidyverse` (`dplyr`) pipelines to filter missing values, standardize identifiers, and prepare phenotypic traits for statistical evaluation.
