@@ -8,7 +8,7 @@ Connecting molecular data to phenotypic conditions. This module covers loading c
 #### 2. Raw Sequencing Reads Import (FASTQ)
 The foundation of NGS. Demonstrates how to use `ShortRead` to ingest paired-end `.fastq` files, extract Phred quality scores, and evaluate base-calling accuracy prior to alignment.
 
-#### 3. Spatial Genomics & Epigenomics (BED / BigWig)
+#### 3. Epigenomics (BED / BigWig)
 Handling spatial genomic data requires precision coordinate mapping. Shows how to import 0-based genomic coordinates (e.g., R-loop forming regions or ChIP-seq peaks) using `rtracklayer::import()`.
 
 #### 4. Sequence Parsing & Alignment Prep (FASTA)
@@ -24,3 +24,5 @@ Navigating sparsity and high dimensionality. Outlines the ingestion of massive c
 
 #### 7. Genomic Variant Formats (VCF)
 The architecture of genetic disease. Demonstrates how to load Variant Call Format (`.vcf`) files to extract SNP coordinates, reference/alternate alleles, and genotype qualities using `VariantAnnotation`.
+
+Literally inside the nucleus!
