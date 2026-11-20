@@ -1,4 +1,4 @@
-# Genomic Data Gateway: The Complete Omics Data Import & Cleaning Toolkit
+# Omics Data Prep: 7 Core Formats in R
 
 ### The 7 Core Modules
 
